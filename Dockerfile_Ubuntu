@@ -1,0 +1,14 @@
+FROM ubuntu
+RUN echo "Der Docker Container kann interaktiv mit dem Parameter -i gestartet werden"
+CMD ["/bin/bash"]
+RUN echo "bash gestartet"
+LABEL maintainer="kontakt@ingo-reschke.de"
+LABEL version="1.0"
+
+#COPY datei.txt .
+
+# RUN cat /datei.txt 
+
+# RUN apt-get update && apt-get install -y \
+#	git \
+	

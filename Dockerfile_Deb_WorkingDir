@@ -1,0 +1,12 @@
+FROM debian:wheezy
+RUN mkdir -p /app
+
+COPY . /app
+
+WORKDIR /app
+
+RUN ls -la
+
+RUN cat datei.txt
+
+

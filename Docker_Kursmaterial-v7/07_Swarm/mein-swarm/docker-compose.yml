@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  worker1:
+    hostname: worker1
+    image: 'docker:${DOCKER_ENGINE_VERSION:-edge-dind}'
+    privileged: true
+    labels:
+      docker-kurs: "worker"
+
+  worker2:
+    hostname: worker2
+    image: 'docker:${DOCKER_ENGINE_VERSION:-edge-dind}'
+    privileged: true
+    labels:
+      docker-kurs: "worker"
+      
+  worker3:
+    hostname: worker3
+    image: 'docker:${DOCKER_ENGINE_VERSION:-edge-dind}'
+    privileged: true
+    labels:
+      docker-kurs: "worker"

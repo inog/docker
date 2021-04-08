@@ -1,0 +1,8 @@
+
+FROM centos:latest
+
+RUN adduser -m ingo
+RUN su ingo
+WORKDIR /home/ingo
+
+

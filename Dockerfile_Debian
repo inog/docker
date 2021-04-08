@@ -1,0 +1,7 @@
+FROM debian:wheezy
+# fall 1
+# ENTRYPOINT ["/bin/ping"]
+# CMD ["localhost"]
+
+# Fall 2
+CMD ["/bin/ping", "localhost"]
