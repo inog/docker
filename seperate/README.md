@@ -1,5 +1,8 @@
+This is a tutorial from 
+https://bday2021.play-with-docker.com/multi-stage-builds/
 
-#Separating build and runtime environment using multi-stage builds
+
+# Separating build and runtime environment using multi-stage builds
 
 In this tutorial we will learn how to create smaller images by separating the build environment from the runtime environment.
 Setting up the environment
